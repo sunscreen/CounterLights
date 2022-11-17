@@ -103,7 +103,7 @@ if ((motion==true) && (timeractive==false)) {
   leds_on();
 }
 
-if ((motion==true) && (timeractive=true)) {
+if ((motion==true) && (timeractive==true)) {
   delayStart=millis();
 }
 
